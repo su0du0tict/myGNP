@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Test_Samsung</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test_Samsung</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 06 12:25:27 EST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>189 seconds (189013 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_1_Launch_Application.Accept_TnC()'><b>Accept_TnC</b><br>Test class: com.MyGNP_TCs.TC_1_Launch_Application</td>
+<td></td>
+<td>10</td>
+<td>com.MyGNP_TCs.TC_1_Launch_Application@42d80b78</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_2_Choose_Pharmacy.Choose_Pharmacy()'><b>Choose_Pharmacy</b><br>Test class: com.MyGNP_TCs.TC_2_Choose_Pharmacy</td>
+<td></td>
+<td>12</td>
+<td>com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_1_Launch_Application.Google_Accept_TnC()'><b>Google_Accept_TnC</b><br>Test class: com.MyGNP_TCs.TC_1_Launch_Application</td>
+<td></td>
+<td>12</td>
+<td>com.MyGNP_TCs.TC_1_Launch_Application@42d80b78</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_1_Launch_Application.Validate_App_Launch()'><b>Validate_App_Launch</b><br>Test class: com.MyGNP_TCs.TC_1_Launch_Application</td>
+<td></td>
+<td>8</td>
+<td>com.MyGNP_TCs.TC_1_Launch_Application@42d80b78</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_1_Launch_Application.Validate_Google_Device_Settings()'><b>Validate_Google_Device_Settings</b><br>Test class: com.MyGNP_TCs.TC_1_Launch_Application</td>
+<td></td>
+<td>11</td>
+<td>com.MyGNP_TCs.TC_1_Launch_Application@42d80b78</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_1_Launch_Application.Validate_HomePage()'><b>Validate_HomePage</b><br>Test class: com.MyGNP_TCs.TC_1_Launch_Application</td>
+<td></td>
+<td>13</td>
+<td>com.MyGNP_TCs.TC_1_Launch_Application@42d80b78</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_2_Choose_Pharmacy.enter_zip_store_locator()'><b>enter_zip_store_locator</b><br>Test class: com.MyGNP_TCs.TC_2_Choose_Pharmacy</td>
+<td></td>
+<td>21</td>
+<td>com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_1_Launch_Application.init()'><b>init</b><br>Test class: com.MyGNP_TCs.TC_1_Launch_Application</td>
+<td></td>
+<td>0</td>
+<td>com.MyGNP_TCs.TC_1_Launch_Application@42d80b78</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_2_Choose_Pharmacy.init()'><b>init</b><br>Test class: com.MyGNP_TCs.TC_2_Choose_Pharmacy</td>
+<td></td>
+<td>0</td>
+<td>com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_2_Choose_Pharmacy.navtolistview()'><b>navtolistview</b><br>Test class: com.MyGNP_TCs.TC_2_Choose_Pharmacy</td>
+<td></td>
+<td>10</td>
+<td>com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_2_Choose_Pharmacy.select_popup()'><b>select_popup</b><br>Test class: com.MyGNP_TCs.TC_2_Choose_Pharmacy</td>
+<td></td>
+<td>11</td>
+<td>com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_2_Choose_Pharmacy.select_preferred()'><b>select_preferred</b><br>Test class: com.MyGNP_TCs.TC_2_Choose_Pharmacy</td>
+<td></td>
+<td>9</td>
+<td>com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.Init.setUp()'><b>setUp</b><br>Test class: com.MyGNP_TCs.Init<br>Parameters: 07160795b61b1a04, 6.0.1, http://127.0.0.1:4723/wd/hub</td>
+<td></td>
+<td>31</td>
+<td>com.MyGNP_TCs.Init@66a3ffec</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_2_Choose_Pharmacy.tap_pharmacy()'><b>tap_pharmacy</b><br>Test class: com.MyGNP_TCs.TC_2_Choose_Pharmacy</td>
+<td></td>
+<td>9</td>
+<td>com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.Teardown.teardown()'><b>teardown</b><br>Test class: com.MyGNP_TCs.Teardown</td>
+<td></td>
+<td>4</td>
+<td>com.MyGNP_TCs.Teardown@7cd62f43</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_2_Choose_Pharmacy.validate_Store_Locator_Display()'><b>validate_Store_Locator_Display</b><br>Test class: com.MyGNP_TCs.TC_2_Choose_Pharmacy</td>
+<td></td>
+<td>13</td>
+<td>com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7</td></tr>
+<tr>
+<td title='com.MyGNP_TCs.TC_2_Choose_Pharmacy.validate_my_pharmacy_view()'><b>validate_my_pharmacy_view</b><br>Test class: com.MyGNP_TCs.TC_2_Choose_Pharmacy</td>
+<td></td>
+<td>9</td>
+<td>com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7</td></tr>
+</table><p>
+</body>
+</html>

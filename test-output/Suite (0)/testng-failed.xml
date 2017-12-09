@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (0)]">
+  <test name="Test_Samsung(failed)">
+    <parameter name="platformVersion" value="6.0.1"/>
+    <parameter name="deviceName" value="07160795b61b1a04"/>
+    <parameter name="URL" value="http://127.0.0.1:4723/wd/hub"/>
+    <classes>
+      <class name="com.MyGNP_TCs.TC_2_Choose_Pharmacy">
+        <methods>
+          <include name="select_preferred"/>
+          <include name="Choose_Pharmacy"/>
+          <include name="validate_my_pharmacy_view"/>
+          <include name="validate_Store_Locator_Display"/>
+          <include name="tap_pharmacy"/>
+          <include name="enter_zip_store_locator"/>
+          <include name="select_popup"/>
+          <include name="init"/>
+          <include name="navtolistview"/>
+        </methods>
+      </class> <!-- com.MyGNP_TCs.TC_2_Choose_Pharmacy -->
+      <class name="com.MyGNP_TCs.Teardown">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.MyGNP_TCs.Teardown -->
+      <class name="com.MyGNP_TCs.TC_3_Create_Family_Profile">
+        <methods>
+          <include name="init"/>
+          <include name="validate_family_profille"/>
+          <include name="add_data"/>
+          <include name="validate_add_profile"/>
+          <include name="click_family_profile"/>
+          <include name="add_new"/>
+        </methods>
+      </class> <!-- com.MyGNP_TCs.TC_3_Create_Family_Profile -->
+      <class name="com.MyGNP_TCs.TC_1_Launch_Application">
+        <methods>
+          <include name="Validate_App_Launch"/>
+          <include name="init"/>
+          <include name="Accept_TnC"/>
+          <include name="Google_Accept_TnC"/>
+          <include name="Validate_HomePage"/>
+          <include name="Validate_Google_Device_Settings"/>
+        </methods>
+      </class> <!-- com.MyGNP_TCs.TC_1_Launch_Application -->
+      <class name="com.MyGNP_TCs.Init">
+        <methods>
+          <include name="setUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.MyGNP_TCs.Init -->
+    </classes>
+  </test> <!-- Test_Samsung(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

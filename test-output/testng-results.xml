@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="189013" started-at="2017-11-06T17:25:27Z" finished-at="2017-11-06T17:28:36Z">
+    <groups>
+    </groups>
+    <test name="Test_Samsung" duration-ms="189013" started-at="2017-11-06T17:25:27Z" finished-at="2017-11-06T17:28:36Z">
+      <class name="com.MyGNP_TCs.TC_2_Choose_Pharmacy">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7]" name="init" duration-ms="10" started-at="2017-11-06T12:26:54Z" finished-at="2017-11-06T12:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="Choose_Pharmacy()[pri:0, instance:com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7]" name="Choose_Pharmacy" duration-ms="12314" started-at="2017-11-06T12:26:54Z" depends-on-methods="com.MyGNP_TCs.TC_2_Choose_Pharmacy.init" finished-at="2017-11-06T12:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Choose_Pharmacy -->
+        <test-method status="PASS" signature="validate_Store_Locator_Display()[pri:0, instance:com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7]" name="validate_Store_Locator_Display" duration-ms="13513" started-at="2017-11-06T12:27:07Z" depends-on-methods="com.MyGNP_TCs.TC_2_Choose_Pharmacy.Choose_Pharmacy" finished-at="2017-11-06T12:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Store_Locator_Display -->
+        <test-method status="PASS" signature="enter_zip_store_locator()[pri:0, instance:com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7]" name="enter_zip_store_locator" duration-ms="21856" started-at="2017-11-06T12:27:20Z" depends-on-methods="com.MyGNP_TCs.TC_2_Choose_Pharmacy.validate_Store_Locator_Display" finished-at="2017-11-06T12:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_zip_store_locator -->
+        <test-method status="PASS" signature="navtolistview()[pri:0, instance:com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7]" name="navtolistview" duration-ms="10000" started-at="2017-11-06T12:27:42Z" depends-on-methods="com.MyGNP_TCs.TC_2_Choose_Pharmacy.enter_zip_store_locator" finished-at="2017-11-06T12:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navtolistview -->
+        <test-method status="PASS" signature="tap_pharmacy()[pri:0, instance:com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7]" name="tap_pharmacy" duration-ms="9960" started-at="2017-11-06T12:27:52Z" depends-on-methods="com.MyGNP_TCs.TC_2_Choose_Pharmacy.navtolistview" finished-at="2017-11-06T12:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tap_pharmacy -->
+        <test-method status="PASS" signature="validate_my_pharmacy_view()[pri:0, instance:com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7]" name="validate_my_pharmacy_view" duration-ms="9255" started-at="2017-11-06T12:28:02Z" depends-on-methods="com.MyGNP_TCs.TC_2_Choose_Pharmacy.tap_pharmacy" finished-at="2017-11-06T12:28:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_my_pharmacy_view -->
+        <test-method status="PASS" signature="select_preferred()[pri:0, instance:com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7]" name="select_preferred" duration-ms="9052" started-at="2017-11-06T12:28:11Z" depends-on-methods="com.MyGNP_TCs.TC_2_Choose_Pharmacy.validate_my_pharmacy_view" finished-at="2017-11-06T12:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_preferred -->
+        <test-method status="PASS" signature="select_popup()[pri:0, instance:com.MyGNP_TCs.TC_2_Choose_Pharmacy@91161c7]" name="select_popup" duration-ms="11159" started-at="2017-11-06T12:28:20Z" depends-on-methods="com.MyGNP_TCs.TC_2_Choose_Pharmacy.select_preferred" finished-at="2017-11-06T12:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_popup -->
+      </class> <!-- com.MyGNP_TCs.TC_2_Choose_Pharmacy -->
+      <class name="com.MyGNP_TCs.TC_1_Launch_Application">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.MyGNP_TCs.TC_1_Launch_Application@42d80b78]" name="init" duration-ms="197" started-at="2017-11-06T12:25:58Z" finished-at="2017-11-06T12:25:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="Validate_App_Launch()[pri:0, instance:com.MyGNP_TCs.TC_1_Launch_Application@42d80b78]" name="Validate_App_Launch" duration-ms="8961" started-at="2017-11-06T12:25:59Z" depends-on-methods="com.MyGNP_TCs.TC_1_Launch_Application.init" finished-at="2017-11-06T12:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_App_Launch -->
+        <test-method status="PASS" signature="Accept_TnC()[pri:0, instance:com.MyGNP_TCs.TC_1_Launch_Application@42d80b78]" name="Accept_TnC" duration-ms="10320" started-at="2017-11-06T12:26:08Z" depends-on-methods="com.MyGNP_TCs.TC_1_Launch_Application.Validate_App_Launch" finished-at="2017-11-06T12:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accept_TnC -->
+        <test-method status="PASS" signature="Validate_Google_Device_Settings()[pri:0, instance:com.MyGNP_TCs.TC_1_Launch_Application@42d80b78]" name="Validate_Google_Device_Settings" duration-ms="11153" started-at="2017-11-06T12:26:18Z" depends-on-methods="com.MyGNP_TCs.TC_1_Launch_Application.Accept_TnC" finished-at="2017-11-06T12:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Google_Device_Settings -->
+        <test-method status="PASS" signature="Google_Accept_TnC()[pri:0, instance:com.MyGNP_TCs.TC_1_Launch_Application@42d80b78]" name="Google_Accept_TnC" duration-ms="12236" started-at="2017-11-06T12:26:29Z" depends-on-methods="com.MyGNP_TCs.TC_1_Launch_Application.Validate_Google_Device_Settings" finished-at="2017-11-06T12:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Google_Accept_TnC -->
+        <test-method status="PASS" signature="Validate_HomePage()[pri:0, instance:com.MyGNP_TCs.TC_1_Launch_Application@42d80b78]" name="Validate_HomePage" duration-ms="13122" started-at="2017-11-06T12:26:41Z" depends-on-methods="com.MyGNP_TCs.TC_1_Launch_Application.Google_Accept_TnC" finished-at="2017-11-06T12:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HomePage -->
+      </class> <!-- com.MyGNP_TCs.TC_1_Launch_Application -->
+      <class name="com.MyGNP_TCs.Teardown">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.MyGNP_TCs.Teardown@7cd62f43]" name="teardown" duration-ms="4333" started-at="2017-11-06T12:28:32Z" finished-at="2017-11-06T12:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.MyGNP_TCs.Teardown -->
+      <class name="com.MyGNP_TCs.Init">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.MyGNP_TCs.Init@66a3ffec]" name="setUp" duration-ms="31489" started-at="2017-11-06T12:25:27Z" finished-at="2017-11-06T12:25:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[07160795b61b1a04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.MyGNP_TCs.Init -->
+    </test> <!-- Test_Samsung -->
+  </suite> <!-- Suite -->
+</testng-results>

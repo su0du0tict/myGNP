@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="false" >
+  <test name="Test_Samsung">    
+    <parameter name="deviceName" value="07160795b61b1a04"/>
+	<parameter name="platformVersion" value="6.0.1"/>
+	<parameter name="URL" value="http://127.0.0.1:4723/wd/hub"/>
+    <classes>
+      <class name="com.MyGNP_TCs.Init"/>
+      <class name="com.MyGNP_TCs.TC_1_Launch_Application"/>
+      <class name="com.MyGNP_TCs.TC_2_Choose_Pharmacy"/>
+       <class name="com.MyGNP_TCs.Teardown"/>
+    </classes>
+   </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
